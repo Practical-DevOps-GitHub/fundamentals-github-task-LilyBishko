@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Memory game</title>
+</head>
+<body class="body">
+    <div class="main-block">
+        <canvas id="test"></canvas>
+        <h1 class="title gradient-text" id="animatedText"> 
+            <span>M</span>
+            <span>E</span>
+            <span>M</span>
+            <span>O</span>
+            <span>R</span>
+            <span>Y</span>
+            <br>
+            <span>G</span>
+            <span>A</span>
+            <span>M</span>
+            <span>E</span>
+        </h1>
+    </div>
+    <div class="level-container">
+        <a class="new-level" href="easy-level.html">PLAY</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
